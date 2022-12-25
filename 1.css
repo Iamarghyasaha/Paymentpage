@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+header{
+    text-align: center;
+    background-color: rgb(181, 178, 178);
+    padding: 15px;
+}
+nav{
+    background-color: rgb(76, 98, 38);
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    float:left;
+}
+nav a:hover{
+    color: black;
+}
+.right{
+    
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+footer{
+    background-color: rgb(76, 98, 38);
+    overflow: hidden;
+    padding: 15 px;
+}
+footer a:hover{
+    color: black;
+}
+footer a,span{
+    text-decoration: none;
+    color: white;
+    padding:15px;
+    float:left;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px; 
+
+}
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+input[type="submit"]{
+    background-color: rgb(68, 150, 68);
+    color: white;
+    padding:15px ;
+    border: none;
+    border-radius: 9px;
+    width: 49%;
+    cursor: pointer;
+}
+input[type="reset"]{
+    background-color: rgb(194, 72, 72);
+    color: white;
+    padding:15px ;
+    border: none;
+    border-radius: 9px;
+    width: 49%;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color:rgb(26, 50, 26);
+}
+input[type="reset"]:hover{
+    color: rgb(78, 25, 25);
+}
